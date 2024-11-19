@@ -14,12 +14,12 @@ function Student({ id, name, attend, toggleAttendance }) {
         <div className="d-flex align-items-center">
           {attend[id] === true ? (
             <button
-              className="btn btn-sm btn-success ms-2"
+              className="btn btn-sm btn-warning ms-2"
               onClick={() => {
                 toggleAttendance(id);
               }}
             >
-              Mark as Present
+              Mark as Absent
             </button>
           ) : (
             <button
