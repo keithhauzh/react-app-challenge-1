@@ -14,7 +14,7 @@ function App() {
   // logic done before rendering the components
 
   // Your code here
-  // Hints:
+  // Hints:~
   // 1. Use useState to keep track of attendance for each student. //done
   // 2. Initialize attendance status for all students as 'Absent'. //done
   const [attend, setAttend] = useState(false);

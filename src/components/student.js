@@ -12,7 +12,6 @@ function Student({ id, name, attend, toggleAttendance }) {
         </div>
 
         <div className="d-flex align-items-center">
-          {name}
           {attend[id] === true ? (
             <button
               className="btn btn-sm btn-success ms-2"
